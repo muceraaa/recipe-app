@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  h1{
+    font-size: 1in;
+    font-style:oblique;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    color:rgb(173, 212, 200);
+  
+  }
+  h2{
+    font-weight:bold;
+  }
+  h3{
+    font-size:medium;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight:bolder;
+  }
+  body {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    background-image:url(food.jpg);
+    background-size:cover;
+    position:relative;
+
+  }
+  footer{
+    background-color: whitesmoke;
+    text-align: center;
+    width: 100%;
+  }
+  
+
+  #meal-input {
+    height: 6vh;
+    border: none;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  #meal-submit {
+    width: 12vh;
+    height: 6vh;
+    border: none;
+    color: #ffffff;
+    background-color: #101011;
+    border-radius: 0 10px 10px 0;
+  }
+  #meal-submit:hover {
+    color: rgb(173, 212, 200);
+  }
+  
+  #no-meal-found {
+    color:rgb(173, 212, 200);
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+
+  .cursor {
+    cursor: pointer;
+  }
+  .meal-details-div img {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+  }
+  #meal-details img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
+  #meal-details h2 {
+    color:rgba(240, 28, 28, 0.815);
+    font-weight: bold;
+  }
+  #meal-details p {
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+   
+  #i{
+    float: center;
+  }  
+  #p{
+    float: center;
+  }
+  #g{
+    float: center;
+  }
+ 
